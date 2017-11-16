@@ -1,7 +1,5 @@
 # ekifakhrureza.github.io
 
+My Future Plans :
 
-My Very 1st Portfolio .
-
-I'm Javascript Enthusiast .
-
+I'll develop this site, start from HTML ,  CSS then end with Javascript and compliments.
