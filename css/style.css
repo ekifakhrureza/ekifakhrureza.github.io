@@ -1,12 +1,12 @@
 *{ 
-margin:0;
-padding:0; 
+	margin:0;
+	padding:0; 
 }
 body {
 	background-image: url("../img/background.jpg");
 	color:#fff;
-	 margin: 0;
-      padding: 20px 0 0 0;
+	margin: 0;
+    padding: 20px 0 0 0;
 }
 h1 {
 	display: flex;
@@ -20,7 +20,6 @@ h1 {
 }
 
 h3 {
-	
 	color:#cc8800;
 	text-align: center;
 	font-size: 200%;
@@ -122,10 +121,10 @@ hr {
 
 .content p{
 	text-align: center;
-	 font-size: 12pt; 
-     color: black;  
-     font-family:National, Arial, sans-serif;
-     position:relative;
+	font-size: 12pt; 
+    color: black;  
+    font-family:National, Arial, sans-serif;
+    position:relative;
 	color : #b35900;
 	margin: 20px;
     padding: 150px 0;
@@ -136,103 +135,100 @@ hr {
 	 font-size: 1.875em;
 }
 .footer{
-clear:both;
-height:150px;
-background-color:#F8F8F8;
-width:80%;
+	clear:both;
+	height:150px;
+	background-color:#F8F8F8;
+	width:80%;
 }
 
-/* -- Menu Navigation -- */
+
 .menu {
-width:100%;
-padding-top:20px;
-margin-bottom:10px;
-padding-bottom: 20px;
+	width:100%;
+	padding-top:20px;
+	margin-bottom:10px;
+	padding-bottom: 20px;
 }
+
 .nav {
-font-weight:bold;
-
+	font-weight:bold;
 }
+
 .nav ul {
-height: 100%;
-margin:0;
-padding:0
+	height: 100%;
+	margin:0;
+	padding:0
 }
-.nav li {
-list-style:none;
-display: inline-block;
-margin:0;
-padding:0
-}
-.nav li a {
-display:block;
-line-height:50px;
-text-decoration:none;
-color : #1aa0ef;
-padding:0 35px;
-font-family: Palatino, Garamond, sans-serif;
-font-size: 100%;
-font-weight: 500;
-}
-.nav li a:hover {
-color:#331a00;
-}
-	
-  .main-content {
-            background-color: #eef3f7;
-			position: relative;
-			width: 90%;
-			 
-        }
-        
-		.main-content h2 {
-		font-size: 1.875em;
-	}
 
-	.main-content p {
+.nav li {
+	list-style:none;
+	display: inline-block;
+	margin:0;
+	padding:0
+}
+
+.nav li a {
+	display:block;
+	line-height:50px;
+	text-decoration:none;
+	color : #1aa0ef;
+	padding:0 35px;
+	font-family: Palatino, Garamond, sans-serif;
+	font-size: 100%;
+	font-weight: 500;
+}
+
+.nav li a:hover {
+	color:#331a00;
+}
+	
+.main-content {
+	background-color: #eef3f7;
+	position: relative;
+	width: 90%;			 
+}
+        
+.main-content h2 {
+	font-size: 1.875em;
+}
+
+.main-content p {
 		
-	 font-size: 12pt; 
-     color: black;  
-     font-family:National, Arial, sans-serif;
+	font-size: 12pt; 
+    color: black;  
+    font-family:National, Arial, sans-serif;
 	color : #b35900;
-	
-	  line-height: 200%;
-	  margin: 0;
+	line-height: 200%;
+	margin: 0;
 	padding: 0;
+}
 	
-	}
-	
-	.main-content img {
+.main-content img {
 	float: left;
     margin: 0px 20px 15px 00px;
 	border : 0;
-	
-	
-	}
+}
 		
-        .sidebar-left {
-            
-			color : #b35900;
-			float: left;
-			width: 80%;
-			background-color:#F8F8F8;
-			position: relative;
-        }
+.sidebar-left {
+	color : #b35900;
+	float: left;
+	width: 80%;
+	background-color:#F8F8F8;
+	position: relative;
+}
         
-        .sidebar-right {
-           color : #b35900;
-			float: left;
-			width: 80%;
-			background-color:#F8F8F8;
-			position: relative;
-        }
+.sidebar-right {
+	color : #b35900;
+	float: left;
+	width: 80%;
+	background-color:#F8F8F8;
+	position: relative;
+}
         
 		
-		.sidebar-right .ul {
- 
-		width: 500px;
-		margin: 20px;
-	}
+.sidebar-right .ul { 
+	width: 500px;
+	margin: 20px;
+}
  
 .sidebar-right h3 {
   font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
@@ -274,6 +270,7 @@ color:#331a00;
   background: #eee;
   cursor: pointer;
 }
+
 .footer{
 	margin: 0 10px -10px -10px;
 	width : 102.2%;
@@ -371,94 +368,80 @@ display:block;
 	margin-top: 30px;
 }
 
-/*Base Mobile Layout*/
-        .wrap {
-            width: 90%;
-            margin: 0 auto;
-			background-color : #F8F8F8;
-			
-        }
+.wrap {
+    width: 90%;
+    margin: 0 auto;
+	background-color : #F8F8F8;
+}
    
    
-        .main-content, .sidebar-left, .sidebar-right {
-            width: 90%;
-            float: left;
-			background-color : #F8F8F8;
+.main-content, .sidebar-left, .sidebar-right {
+	width: 90%;
+	float: left;
+	background-color : #F8F8F8;
 			
-        }
+}
 		
         
-        /*3 Column Layout*/
-        @media only screen and (min-width: 1024px) {
-            .wrap {
-                width: 90%;
-                margin: 0 auto;
+@media only screen and (min-width: 1024px) {
+	.wrap {
+		width: 90%;
+		margin: 0 auto;
+	}
+            
+	.main-content {
+		width: 80%;
+		margin-bottom : 50px;
+	}
+            
+	.sidebar-left {
+		margin-left: 150px;
+	}
+            
+ }
+        
+@media only screen and (min-width: 1200px) {
+	.wrap {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+        
+    
+@media only screen and (min-width: 1024px) {
+	.wrap, .main-content, .sidebar-left, .sidebar-right {
+		background-color : #F8F8F8;
+	}
+            
+	.main-content, .sidebar-left, .sidebar-right {
+		top: 0;
+	}
+            
+            
+	.sidebar-left {
+		left: -50%; 
+	}
+            
+	.main-content {
+		left: 25%;
+	}
 
-            }
-            
-            .main-content {
-                width: 80%;
-				margin-bottom : 50px;
+}
+        
 
-            }
-            
-            .sidebar-left {
-				margin-left: 150px;
-            }
-            
-            .sidebar-right {
-             
-            }
-        }
-        
-        /*Wide Layout*/
-        @media only screen and (min-width: 1200px) {
-            .wrap {
-                width: 90%;
-                margin: 0 auto;
-            }
-        }
-        
-        /*Move Sidebar Position*/
-        @media only screen and (min-width: 1024px) {
-            .wrap, .main-content, .sidebar-left, .sidebar-right {
-              
-				background-color : #F8F8F8;
-            }
-            
-            .main-content, .sidebar-left, .sidebar-right {
-                top: 0;
-            }
-            
-            .sidebar-right {
-               
-            }
-            
-            .sidebar-left {
-                left: -50%; /*Width of #main-content*/
-            }
-            
-            .main-content {
-                left: 25%; /*Width of #left-sidebar*/
-            }
-        }
-        
-        /*Optional 2 Column Layout*/
-        @media only screen and (min-width: 366px) and (max-width: 1024px) {
-            .sidebar-right {
-                 position: relative;
-            }
-            .sidebar-left {
-                    position: relative;
-            }
-            .main-content {
-                position: relative;
-               
-                margin-bottom: 70px;
+@media only screen and (min-width: 366px) and (max-width: 1024px) {
+	.sidebar-right {
+		position: relative;
+     }
+     .sidebar-left {
+		position: relative;
+     }
+	.main-content {
+		position: relative;
+		margin-bottom: 70px;
+	}
 			
-            }
-			
-        }
+}
 		
 		
 		
