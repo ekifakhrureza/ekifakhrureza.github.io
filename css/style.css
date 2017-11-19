@@ -270,19 +270,116 @@ color:#331a00;
  color : #b35900;
 }
  
-.sidebar-right li:hover {
+.sidebar-right a:hover {
   background: #eee;
   cursor: pointer;
 }
-		
-        /*Base Mobile Layout*/
+.footer{
+	margin: 0 10px -10px -10px;
+	width : 102.2%;
+	background-color: #e67e22;
+	height : 250px;
+}
+
+.footer h2{
+	margin: 10px 10px 10px 30px;
+	padding-top:20px;
+}
+
+
+.footer li img {
+  float: left;
+  margin: 0 15px 0 0;
+  
+ outline:none !important;
+ border : 0;
+}
+ 
+.footer li p {
+  font: 200 20px/1.5 Georgia, Times New Roman, serif;
+}
+ 
+.footer li {
+  padding: 10px 30px;
+  
+  display: inline-block;
+  outline: medium none !important;
+  padding-right: 70px;
+}
+
+.footer ul li a{
+text-decoration:none;
+color:#fdebd0 ;	
+display:block;
+}
+
+.footer ul li a.fb {
+	background: url('../img/social2.png') no-repeat 0px 4px;  
+    padding: 10px 0 12px 52px;
+}
+.footer ul li a.fb1 {
+	background: url('../img/social1.png') no-repeat 0px 4px;
+    padding: 10px 0 12px 52px;
+}
+.footer ul li a.fb2 {
+    background: url('../img/social3.png') no-repeat 0px 4px;
+    padding: 10px 0 12px 52px;
+}
+.footer ul li a.fb3 {
+    background: url('../img/icon3.png') no-repeat 0px 4px;
+    padding: 10px 0 12px 52px;
+}
+.footer ul li a.fb4 {
+    background: url('../img/icon2.png') no-repeat 0px 4px;
+    padding: 10px 0 12px 52px;
+}	
+       
+.footer ul li a.fb5 {
+    background: url('../img/icon1.png') no-repeat 0px 4px;
+    padding: 10px 0 12px 42px;
+}	
+	   
+.footer ul li a.fb:hover {
+    background: url('../img/social3hover.png') no-repeat 0px 4px;
+}
+.footer ul li a.fb1:hover {
+    background: url('../img/social2hover.png') no-repeat 0px 4px;
+}
+.footer ul li a.fb2:hover {
+    background: url('../img/social4hover.png') no-repeat 0px 4px;
+}
+.footer ul li a.fb3:hover {
+    background: url('../img/icon3.png') no-repeat 0px 4px;
+	color:#fdebd0 ;
+	cursor:auto;
+}
+.footer ul li a.fb4:hover {
+    background: url('../img/icon2.png') no-repeat 0px 4px;
+	color:#fdebd0 ;
+	cursor:auto;
+}
+.footer ul li a.fb5:hover {
+    background: url('../img/icon1.png') no-repeat 0px 4px;
+	color:#fdebd0 ;
+	cursor:auto;
+}
+.footer ul li a:hover,.copy-right ul li a:hover,.footer.three ul li a:hover{
+	color:  #154360 ;
+}
+
+.copyright{
+	margin-top: 30px;
+}
+
+/*Base Mobile Layout*/
         .wrap {
             width: 90%;
             margin: 0 auto;
 			background-color : #F8F8F8;
 			
         }
-        
+   
+   
         .main-content, .sidebar-left, .sidebar-right {
             width: 90%;
             float: left;
