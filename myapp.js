@@ -24,7 +24,7 @@ function todolist()
 {
   if (harlow==='senin')
     {
-     console.log("Hari "+harlow+" kita akan mempelajari :");
+     console.log("Hari "+harlow+" kita akan mengerjakan :");
       for(var index=0;index<senin.length;index++)
         {
          console.log(senin[index]);
@@ -33,7 +33,7 @@ function todolist()
     }
    else if(harlow==='selasa')
     {
-     console.log("Hari "+harlow+" kita akan mempelajari :");
+     console.log("Hari "+harlow+" kita akan mengerjakan :");
       for(var index=0;index<selasa.length;index++)
         {
          console.log(selasa[index]);
@@ -43,7 +43,7 @@ function todolist()
 
    else if(harlow==='rabu')
     {
-     console.log("Hari "+harlow+" kita akan mempelajari :");
+     console.log("Hari "+harlow+" kita akan mengerjakan :");
       for(var index=0;index<rabu.length;index++)
         {
          console.log(rabu[index]);
@@ -53,7 +53,7 @@ function todolist()
 
    else if(harlow==='kamis')
     {
-     console.log("Hari "+harlow+" akan mempelajari :");
+     console.log("Hari "+harlow+" kita akan mengerjakan :");
       for(var index=0;index<kamis.length;index++)
         {
          console.log(kamis[index]);
@@ -63,7 +63,7 @@ function todolist()
   
      else if(harlow==='jumat')
     {
-     console.log("Hari "+harlow+" kita akan mempelajari :");
+     console.log("Hari "+harlow+" kita akan mengerjakan :");
       for(var index=0;index<jumat.length;index++)
         {
          console.log(jumat[index]);

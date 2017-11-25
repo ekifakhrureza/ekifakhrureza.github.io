@@ -15,27 +15,27 @@ IF 'hari' tidak sama dengan null dan tidak sama dengan "" THEN:
 	CEK harlow di dalam fungsi todolist()
 		IF 'harlow' sama dengan 'senin' THEN:
 			FOR setiap pertambahan 1 pada 'index' dari 0 sampai panjang dari senin[]:
-				TULISKAN "Hari 'harlow' kita akan mempelajari :"	
+				TULISKAN "Hari 'harlow' kita akan mengerjakan :"	
 				TULISKAN senin[index]
 			ENDFOR	
 		ELSE IF 'harlow' sama dengan 'selasa' THEN:
 			FOR setiap pertambahan 1 pada 'index' dari 0 sampai panjang dari selasa[]:
-				TULISKAN "Hari 'harlow' kita akan mempelajari :"
+				TULISKAN "Hari 'harlow' kita akan mengerjakan :"
 				TULISKAN selasa[index]
 			ENDFOR		
 		ELSE IF 'harlow' sama dengan 'rabu' THEN:
 			FOR setiap pertambahan 1 pada 'index' dari 0 sampai panjang dari rabu[]:
-				TULISKAN "Hari 'harlow' kita akan mempelajari :"
+				TULISKAN "Hari 'harlow' kita akan mengerjakan :"
 				TULISKAN rabu[index]
 			ENDFOR		
 		ELSE IF 'harlow' sama dengan 'kamis' THEN:
 			FOR setiap pertambahan 1 pada 'index' dari 0 sampai panjang dari kamis[]:
-				TULISKAN "Hari 'harlow' kita akan mempelajari :"
+				TULISKAN "Hari 'harlow' kita akan mengerjakan :"
 				TULISKAN kamis[index]
 			ENDFOR			
 		ELSE IF 'harlow' sama dengan 'jumat' THEN:
 			FOR setiap pertambahan 1 pada 'index' dari 0 sampai panjang dari jumat[]:
-				TULISKAN "Hari 'harlow' kita akan mempelajari :"
+				TULISKAN "Hari 'harlow' kita akan mengerjakan :"
 				TULISKAN jumat[index]
 			ENDFOR
 		ELSE:
